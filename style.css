@@ -9,7 +9,7 @@ body {
     color: orange
 }
 
-section {
+.container {
     display: flex;
 }
 
@@ -63,14 +63,14 @@ section {
     width: 50%;
     margin-left: 70px;
     margin-right: 50px;
-    
+
 }
 
 .photo img {
     width: 72%;
     margin-left: 80px;
     margin-top: 30px;
-    
+
 }
 
 .h {
@@ -92,4 +92,62 @@ section {
     font-weight: 700;
     border-radius: 8px;
     color: blue;
+}
+
+.photo {}
+
+.exp {
+    color: coral;
+    font-size: 50px;
+    font-weight: 800;
+    text-align: center;
+    padding: 50px;
+    margin-top: 50px;
+}
+
+.poto h3 {
+    font-weight: 600;
+    color: rgb(255, 55, 5)
+}
+
+.poto h1 {
+    font-weight: 700;
+    font-size: 30px;
+}
+
+.poto {
+    width: 45%;
+    text-align: justify;
+    margin-left: 5%;
+    margin-right: 5%;
+    border-left: 5px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 40px gray;
+    padding:20px;
+    
+    
+}
+
+.experience {
+  
+    margin-bottom: 50px;
+    background-image: url(image/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    border-radius: 10px;
+}
+#apon {
+    border-left: 8px solid blue;
+}
+#apurbo{
+    border-left: 8px solid greenyellow; 
+}
+footer{
+    text-align: center;
+    color: black;
+    font-size: 22px;
+    font-weight: 400;
+    padding: 30px;
+    margin-top: 100px;
+    margin-bottom: 100px;
 }

@@ -123,31 +123,78 @@ body {
     border-left: 5px;
     border-radius: 10px;
     box-shadow: 10px 10px 40px gray;
-    padding:20px;
-    
-    
+    padding: 20px;
+
+
 }
 
 .experience {
-  
+
     margin-bottom: 50px;
     background-image: url(image/exp-bg.png);
     background-repeat: no-repeat;
     background-position: left;
     border-radius: 10px;
 }
+
 #apon {
     border-left: 8px solid blue;
 }
-#apurbo{
-    border-left: 8px solid greenyellow; 
+
+#apurbo {
+    border-left: 8px solid greenyellow;
 }
-footer{
+
+footer {
     text-align: center;
     color: black;
     font-size: 22px;
     font-weight: 400;
     padding: 30px;
     margin-top: 100px;
-    margin-bottom: 100px;
+
+}
+
+.drink img {
+    width: 60%;
+    margin-left: 135px;
+    margin-right: 100px;
+    margin-top: 100px;
+}
+
+
+.you {
+    text-transform: uppercase;
+    margin-left: 100px;
+    margin-top: 250px;
+    padding: 40px;
+    font-size: 70px;
+    color: deeppink;
+    text-shadow: 8px 0.5px rgb(64, 83, 39);
+    letter-spacing: 5px;
+}
+
+.me {
+    text-transform: uppercase;
+    margin-right: 100px;
+    margin-top: 250px;
+    padding: 40px;
+    font-size: 70px;
+    color: deeppink;
+    text-shadow: 8px 0.5px rgb(64, 83, 39);
+    letter-spacing: 5px;
+}
+
+#nn {
+    color: rgb(18, 247, 56);
+    text-shadow: 8px 0.5px rgb(64, 83, 39);
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 70px;
+    margin-top: 150px;
+    font-weight: bolder;
+}
+
+#hh {
+    margin-top: -30px;
 }
